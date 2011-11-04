@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/makeglos
+# catalog-date 2007-02-23 00:16:39 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-makeglos
 Version:	20070223
 Release:	1
@@ -41,6 +47,7 @@ as xindy or makeindex, in the same way that an index is made.
 %doc %{_texmfdistdir}/doc/latex/makeglos/makeglos.pdf
 %doc %{_texmfdistdir}/doc/latex/makeglos/makeglos.tex
 %doc %{_texmfdistdir}/doc/latex/makeglos/makeglos.xdy
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ as xindy or makeindex, in the same way that an index is made.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
