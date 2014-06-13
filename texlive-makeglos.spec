@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-makeglos
 Version:	20070223
-Release:	6
+Release:	7
 Summary:	Include a glossary into a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makeglos
