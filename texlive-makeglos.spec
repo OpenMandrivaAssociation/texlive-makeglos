@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-makeglos
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Include a glossary into a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makeglos
