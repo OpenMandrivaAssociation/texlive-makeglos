@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Include a glossary into a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/makeglos
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/makeglos
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makeglos.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/makeglos.doc.r%{version}.tar.xz
